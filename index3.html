@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Registration</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Register for Renewal</h1>
+    <form id="registration-form">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div>
+        <label for="vehicle-number">Vehicle Number:</label>
+        <input type="text" id="vehicle-number" name="vehicle-number" required>
+      </div>
+      <div>
+        <label for="vehicle-model">Model of Vehicle:</label>
+        <select id="vehicle-model" name="vehicle-model" required>
+          <option value="">Select Vehicle Model</option>
+          <option value="2-wheelers">2 Wheelers</option>
+          <option value="4-wheelers">4 Wheelers</option>
+          <option value="heavy-motor">Heavy Motor</option>
+        </select>
+      </div>
+      <button type="submit">Submit</button>
+      <a href="index2.html" class="back"><p>Back</p></a>
+    </form>
+
+  </div>
+</div>
+
+</div>
+  <script src="registration.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Accident Data Retrieval</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    
+    <h1>Vehicle Accident Data Retrieval System</h1>
+    <p>Enter the vehicle number to retrieve accident data:</p>
+    <form id="search-form">
+      <input type="number" id="vehicle-number" name="vehicle-number" placeholder="Vehicle Number (Integer)">
+      <button type="submit">Search</button>
+     
+    </form>
+    <p class="police">Accessible by police only</p>
+    <div id="results" class="hidden">
+      <h2>Accident Details</h2>
+      <p id="accident-location">Location: Not Found</p>
+      <div id="map-container"></div>
+    </div>
+    <div id="notFound" class="hidden">
+        <p >Accident data not found for this vehicle number</p>
+    </div>
+  </div>
+
+</div>
+<a href="index3.html"><button id="register-btn">Register for renewal</button></a>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
